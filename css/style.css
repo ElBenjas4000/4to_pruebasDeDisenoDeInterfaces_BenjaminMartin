@@ -1,20 +1,23 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .fondoPrincipal{
     background-color: black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url("/img/fondoPrincipal2.jpg"), url(/img/fondoPrincipal1.jpg), url(/img/fondoPrincipal3.jpg);
-    background-position: center, center, center;
-    background-size: cover, cover, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    height: 0%, 100%, 200%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url("/img/fondoPrincipal3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .barraInicio {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 5% auto 5%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
 
@@ -26,11 +29,11 @@
 .logo a img {
     width: 40px;
     height: 40px;
-    margin: auto 10px auto 5px;
+    margin: 5px 10px auto 5px;
 }
 
 .logo span{
-    margin: 9px auto auto auto;
+    margin: 14px auto auto auto;
 }
 
 .ubicacion a{
@@ -57,7 +60,7 @@
 .textoPrincipal{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 50%;
     margin:  0% auto 10% auto;
     text-align: center;
@@ -87,7 +90,7 @@
 
 
 
-li a {
+.listaVertical li a {
     list-style-type: none;
     float:left;     
     display: block;
@@ -101,9 +104,106 @@ li a {
 }
   
 
-li a:hover {
+.listaVertical li a:hover {
     background-color: rgba(0, 0, 0, 0.788);
     border-radius: 16px;
 
 }
 
+footer {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    color: black;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto {
+    width: 50%;
+}
+
+.redesSociales {
+    width: 50%;
+    
+}
+
+.redesSociales ul {
+    list-style: none;
+    padding: 0;
+    margin: 5% 20% auto 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redesSociales li {
+
+    margin-right: 40px;
+}
+
+.derechosReservados {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    color: both;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+.mapa iframe{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.instagram {
+    color: rgb(255, 0, 64);
+}
+.instagram:hover {
+    background-color: rgb(255, 0, 64);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.facebook {
+    color: blue;
+}
+.facebook:hover {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.twitter {
+    color: rgb(0, 132, 255);
+}
+
+.twitter:hover {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.correo {
+    color: red;
+    text-decoration: none;
+}
+
+.correo:hover {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
