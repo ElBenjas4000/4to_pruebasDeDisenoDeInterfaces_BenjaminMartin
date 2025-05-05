@@ -1,36 +1,92 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
+
+.fondoPrincipal{
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)),url("/img/fondoPrincipal2.jpg"), url(/img/fondoPrincipal1.jpg), url(/img/fondoPrincipal3.jpg);
+    background-position: center, center, center;
+    background-size: cover, cover, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    height: 0%, 100%, 200%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.fondo{
-    
+.barraInicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
+
+.logo {
+    display: flex;
+    align-items: left;
+}
+
+.logo a img {
+    width: 40px;
+    height: 40px;
+    margin: auto 10px auto 5px;
+}
+
+.logo span{
+    margin: 9px auto auto auto;
+}
+
+.ubicacion a{
+    text-decoration: none;
+    margin: auto 10px auto auto;
+}
+
+.ubicacion i{
+    font-size: 24px;
+}
+
 .titulos {
-    font-family: 'Arial','sans-serif';
-    font-size: 49px;
-    font-weight: bold;
-    background-color: #333333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 39px;
+    background-color: rgba(0, 0, 0, 0);
     text-align: center;
-    margin: 5% 30% 0% 30%;
+    margin: 1% 20% 0% 20%;
     border: 0%;
     border-radius: 40px;
-    padding: 4%;
+    padding: 3%;
     color: #ffffff;;
+}
+
+.textoPrincipal{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    margin:  0% auto 10% auto;
+    text-align: center;
+    border: 0%;
+    border-radius: 30px;
+    padding: 2%;
+    color: white;
+    
 }
 
 .listaVertical {
     list-style-type: none;
-    margin: 0% 38% 5% 42.5%;
+    margin: 2% 38% 5% 42.5%;
     width: 206px;
     padding: 0;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 19px;
 }
-  
+.listas{
+    font-size: 18px;
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+    text-align: left;
+}
+
+
+
 li a {
     list-style-type: none;
     float:left;     
@@ -44,9 +100,10 @@ li a {
     font-family: sans-serif;
 }
   
+
 li a:hover {
-    background-color: #111111;
+    background-color: rgba(0, 0, 0, 0.788);
     border-radius: 16px;
-    
+
 }
 
