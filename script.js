@@ -2,7 +2,7 @@ let imagenes = [
    {
         "url": "img/bmw_serie_1.jpg",
         "nombre": "BMW Serie 1",
-        "descripcion": "El BMW Serie 1 es un compacto premium de la marca BMW, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel."
+        "descripcion": "El BMW Serie 1 es un compacto premium, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel."
     },
     {
         "url": "img/bmw_x3.jpg",
@@ -12,7 +12,7 @@ let imagenes = [
     {
         "url": "img/bmw_xm.webp",
         "nombre": "BMW XM", 
-        "descripcion": "El BMW XM es un SUV de lujo híbrido enchufable fabricado por BMW. Se caracteriza por su potente motor V8 TwinPower Turbo de 4,4 litros, combinado con un motor eléctrico, para ofrecer una experiencia de conducción de alto rendimiento."
+        "descripcion": "El BMW XM es un SUV de lujo híbrido enchufable. Se caracteriza por su potente motor V8 TwinPower Turbo de 4,4 litros, combinado con un motor eléctrico, para ofrecer una experiencia de conducción de alto rendimiento."
     },
     {
         "url": "img/bmw_z4.webp",
