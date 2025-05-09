@@ -226,10 +226,10 @@ footer {
 
 .img{
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
-    height: 576px;
-    width: 1134px;
+    height: 500px;
+    width: 1000px;
     border-radius: 15px ;
-    margin: 5px;
+    margin: -5px;
     object-fit: cover;
     filter: saturate(175%);
 }
@@ -250,7 +250,7 @@ footer {
 
 .texto h3{
     text-shadow: 0px 0px 15px black;
-    padding-top: 40px;
+    padding-top: 70px;
     color: white;
     font-weight: 300;
     font-size: 27px;
@@ -258,6 +258,7 @@ footer {
 
 .texto p{
     align-items: center;
+    margin: -5px auto 40px auto;
     padding: 20px;
     color:white;
     font-size: 0px;
@@ -271,14 +272,14 @@ footer {
 }
 
 .imagenes:hover .texto{
-    transition: height 1s, transform 1s, background-color 1s;
-    transform: translateY(-150px);
+    transition: height 0.5s, transform 1s, background-color 1s;
+    transform: translateY(-100px);
     height: 300px;
     background-color: rgba(63, 106, 138, 0.71);
 }
 
 .imagenes:hover .texto p{
-    transition: font-size 0s .2s linear;
+    transition: font-size 0s .1s linear;
     font-size: 23px;
     font-weight: 300;
 
@@ -294,7 +295,7 @@ footer {
 .puntos p{
     font-size: 100px;
     font-weight: 500;
-    margin-top: -50px;
+    margin-top: -100px;
     color: black;
 }
 
@@ -305,11 +306,16 @@ footer {
     color: #5E17EB ;
 }
 
-.botonAtrasAdelante {
-    background-color:rgb(222, 222, 222);
-    color: black;
+.boton {
+    height: 70px;
+    padding: 5px;
+    margin: auto 15px;
+
 }
 
-.botonAtrasAdelante:hover {
-    background-color: rgb(181, 181, 181);
+.boton:hover {
+    
+    height: 80px;
+    margin: auto 10px;
+    transition: 0.2s;
 }

@@ -19,29 +19,98 @@
         </div>
     </header>
 
+
+    <div>
+        <h1 class="titulos" style="color: black;">Productos</h1>
+        <table>
+            <caption>Precio de vehiculos</caption>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Puertas</th>
+                    <th>Motor</th>
+                    <th>Tracción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BMW Serie 1</td>
+                    <td>5</td>
+                    <td>2.0L Turbo</td>
+                    <td>Delantera</td>
+                    <td>$35,000</td>
+                </tr>
+                <tr>
+                    <td>BMW X3</td>
+                    <td>5</td>
+                    <td>2.0L Turbo</td>
+                    <td>Integral</td>
+                    <td>$45,000</td>
+                </tr>
+                <tr>
+                    <td>BMW XM</td>
+                    <td>5</td>
+                    <td>4.4L V8 Biturbo</td>
+                    <td>Integral</td>
+                    <td>$180,000</td>
+                </tr>
+                <tr>
+                    <td>BMW Z4</td>
+                    <td>2</td>
+                    <td>2.0L Trubo</td>
+                    <td>Trasera</td>
+                    <td>$50,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
     <div class="carrusel">
         <div class="atras">
-            <img src="/img/" alt="" class="class img">
+            <img id="atras" src="img/atras.png" alt="atras" class="boton" loading="lazy">
         </div>
 
         <div class="imagenes">
             <div id="img">
-                <img class="img" src="img/bmw_serie_1.jpg" alt="Vehiculo " loading="lazy">
+                <img class="img" src="img/bmw_serie_1.jpg" alt="imagen 1" loading="lazy">
             </div>
             
             <div id="texto" class="texto">
                 <h3>BMW Series 1</h3>
-                <p>El BMW Serie 1 es un compacto premium de la marca BMW, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel.</p>  
+                <p>El BMW Serie 1 es un compacto premium de la marca BMW, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel.</p>
             </div>
         </div>
 
         <div class="adelante" id="adelante">
-            <i class="fas fa-arrow-right" style="color: black;"></i>
+            <img src="img/adelante.png" alt="adelante" class="boton" loading="lazy">
         </div>
     </div>
-
     <div class="puntos" id="puntos"></div>
 
     <script src="script.js"></script>
+
+
+    <footer>
+        <div class="contenedor">
+            <div class="contacto">
+                <h2>Contáctanos</h2>
+                <p>Telefono: +123456789</p>
+                <p>Correo electronico: <a href="mailto:info@automunich.com.ar" class="correo">info@automunich.com.ar <i class="fas fa-envelope"> </i></a></p>
+            </div>
+            <div class="redesSociales">
+                <h2>Síguenos</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/BMW.Argentina/?locale=es_LA" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://x.com/BMWMotorsport" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/bmw.argentina/?hl=es" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="derechosReservados">
+            <p>&copy; copyright 2025 Ejemplo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
