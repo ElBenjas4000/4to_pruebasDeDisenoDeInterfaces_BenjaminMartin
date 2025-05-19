@@ -44,6 +44,7 @@ atras.addEventListener('click', function(){
     `
     posicionCarrusel()
 })  
+
 adelante.addEventListener('click', function(){
     actual +=1
 
